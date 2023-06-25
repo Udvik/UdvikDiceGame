@@ -1,3 +1,4 @@
+function rollDice(){
 var player1=Math.floor(Math.random()*6);   
 var player2=Math.floor(Math.random()*6);
 var array=["dice1","dice2","dice3","dice4","dice5","dice6"];
@@ -13,4 +14,7 @@ else if(player1<player2){
 }
 else{
     document.getElementById("heading").innerHTML=("Draw"+"&#129309;");
+}
+
+
 }
